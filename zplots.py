@@ -7,9 +7,9 @@ import scipy.interpolate as interpolate
 import scipy.stats
 import scipy.spatial
 
-from zcolours import *
-from zvoronoi import *
-from zsubdiv import *
+from .zcolours import *
+from .zvoronoi import *
+from .zsubdiv import *
 
 def set_mpl_defaults():
     # jupyter and matplotlib defaults
