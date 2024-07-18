@@ -48,7 +48,7 @@ def make_plot(figsize=(10,6),xlabel='',ylabel='',xscale='linear',yscale='linear'
 def make_grid(height,width,figsize=None,thisAx=None,wspace=None, hspace=None, width_ratios=None, height_ratios=None):
     if thisAx==None:
         if figsize==None:
-            figsize=(2*width,2*height)
+            figsize=(4*width,4*height)
         fig=plt.figure(figsize=figsize)
     grid=mpl.gridspec.GridSpec(width,height,figure=fig,wspace=wspace,hspace=hspace,width_ratios=width_ratios,height_ratios=height_ratios)
     return fig,grid
